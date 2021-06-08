@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Title of the document</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<style type="">
+
+	body{
+	   padding: 0;
+	   margin: 0;
+	   font-family: sans-serif;
+	}
+
+	@media only screen and (max-width: 600px) {
+	 .container {  max-width: 540px !important;}
+	}
+
+	@media only screen and (min-width: 600px) {
+	  .container {  max-width: 540px !important;}
+	}
+
+	@media only screen and (min-width: 768px) {
+	 .container {   max-width: 720px !important;}
+	} 
+
+	@media only screen and (min-width: 992px) {
+	.container {  max-width: 960px !important;}
+	} 
+
+	@media only screen and (min-width: 1200px) {
+	.container {  max-width: 1140px !important;}
+	}
+
+	.container {
+	   width: 100%;
+	   padding-right: 15px;
+	   padding-left: 15px;
+	   margin-right: auto;
+	   margin-left: auto;}
+
+	   .row {
+	   display: -webkit-box;
+	   display: -ms-flexbox;
+	   display: flex;
+	   -ms-flex-wrap: wrap;
+	   flex-wrap: wrap;
+	   margin-right: -15px;
+	   margin-left: -15px;
+	}
+	.nav{
+	       max-width: 1200px;
+	   margin: auto;
+	}
+	.nav-ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	float: left;
+	}
+	.nav-li {
+	line-height: 2;
+	padding: 0px 10px;
+	display: inline;
+	float: left;
+	top: 5px;
+	position: relative;
+
+	}
+	.nav-li > a{
+	text-decoration: none;
+	color: #18191F;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 100;
+	}
+
+	.dropdown-li{
+
+	font-family: sans-serif;
+	font-weight: 100;
+	   list-style-type: none;
+	font-size: 14px;
+	padding: 0px 10px;
+	color: #18191F;
+	   position: relative;
+	   top: 7px;
+
+	}
+
+	.dropdown-li > a{
+	text-decoration: none;
+	line-height: 2;
+
+	}
+	.dropdown {
+	float: left;
+	overflow: hidden;
+	line-height: 2;
+	}
+
+	.dropdown .dropbtn {
+	font-size: 16px;  
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+	}
+
+	.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	}
+
+	.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	}
+
+	.dropdown-content a:hover {
+	background-color: #ddd;
+	}
+
+	.dropdown:hover .dropdown-content {
+	display: block;
+	}
+
+	.logo-img{
+
+	 display: inline;
+	   float: left;
+	width: 100%;
+	   height: auto;
+	}
+	.play-store-logo{
+	width: 100%;
+	height: auto;
+	       display: inline;
+	   float: left;
+	   padding: 0px 10px;
+	   border-radius: 14px;
+	}
+	.app-store-logo{
+
+	       display: inline;
+	   padding: 0px 10px;
+	   float: left;
+	}
+	.nav-right-logo{
+	display: inline;float: right;
+	}
+	/* logo clouds */
+	.flex-container {
+	   display: flex;
+	   flex-wrap: nowrap;
+	   border-top: 1px solid #e6e6e6;
+	   border-bottom: 1px solid #e6e6e6;
+	   padding: 25px 60px;
+	}
+
+	.flex-container > img {
+
+	 width: auto;
+	 margin: 10px;
+	 text-align: center;
+	 line-height: 75px;
+	 font-size: 30px;
+	}
+
+	.centerDiv{
+	   display: flex;
+	   justify-content: center;
+	}
+	.title{
+	   display: contents;
+    font-size: 37px;
+    font-weight: 800;
+    line-height: 1.5;
+    text-align: left;
+
+	}
+
+	/*color*/
+	.purple-bg{
+	background: #8C30F5;
+	}
+	.btn{
+		width: 154px;
+		height: 48px;
+		border-radius: 6px;
+		color: #fff;
+		margin: 32px 0px;
+		padding: 12px 32px;
+		border: none;
+    display: block;
+		}
+	</style>
+
+
+</head>
+<body>
+	<div style="background-image: url(img/header-bg.png);height: 100vh;background-size: cover;">
+		<!-- START OF HEADER-->
+		<nav class="nav">
+			<!--Header Logo-->
+			<img class="logo-img" src="img/logo-img.png" style="width: 125px;height: 40px;"> <!--Nav Menu-->
+			<ul class="nav-ul">
+				<li class="nav-li">
+					<a href="#">About</a>
+				</li>
+				<li class="nav-li">
+					<a href="#">Products</a>
+				</li>
+				<li class="nav-li">
+					<a href="#">Pricing</a>
+				</li>
+				<li class="nav-li">
+					<a href="#">Blog</a>
+				</li>
+				<li class="nav-li">
+					<a href="#">Jobs</a>
+				</li>
+				<li style="list-style: none; display: inline">
+					<div class="dropdown">
+						<ul>
+							<li class="dropdown-li">Dropdown <i class="fa fa-angle-down"></i></li>
+							<li style="list-style: none; display: inline">
+								<div class="dropdown-content">
+									<ul>
+										<li class="dropdown-li">
+											<a href="#">Link 1</a>
+										</li>
+										<li class="dropdown-li">
+											<a href="#">Link 1</a>
+										</li>
+										<li class="dropdown-li">
+											<a href="#">Link 1</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+			<div class="nav-right-logo"><img class="play-store-logo" src="img/play-store.png" style="width: 145px;height: 40px;"> <img class="app-store-logo" src="img/app-store.png"></div>
+		</nav>
+
+		<div class="title">
+			<div style="display: inline-block;top: 50%;transform: translateY(31%);">
+			<h1> Organise projects. <br>Get more done.</h1>
+            <button class="purple-bg btn">Get Started</button>
+            </div>
+		</div>
+	</div><!-- END OF HEADER-->
+	<!-- START OF LOGO CLOUDS-->
+	<div class="container centerDiv" id="logo-clouds" style="margin-top: 30px;">
+		<div class="flex-container"><img src="img/1.png"> <img src="img/2.png"> <img src="img/3.png"> <img src="img/4.png"> <img src="img/5.png"> <img src="img/6.png"></div>
+	</div>
+	<br><br><br><br>
+
+</body>
+</html>
