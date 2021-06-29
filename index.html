@@ -1,327 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Boiler-Plate-Design2</title>
+	<title>Boiler-Plate-Design3</title>
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<style type="">
-
-	         body{
-	            padding: 0;
-	            margin: 0;
-	            font-family: 'Inter', sans-serif;
-	         }
-	         h1{
-	             font-size:48px;
-	             text-align: center;
-	             line-height: 1.5;
-	             color: #18191F;
-	         }
-
-	         h2{
-
-	             font-size:24px;
-	             text-align: center;
-	             color: #18191F;
-	             line-height: 1.5;
-	         }
-	         h3{
-
-	             font-size:18.72px;
-	             text-align: center;
-	             color: #18191F;
-	             font-weight: 400;
-	             line-height: 1.5;
-	         }
-
-	         h4{
-
-	             font-size:16px;
-	             font-weight: 400;
-	             text-align: center;
-	             color: #18191F;
-	             line-height: 1.5;
-	         }
-
-	         h5{
-
-	             font-size:13.28px;
-
-	         }
-
-
-	         p{
-	             font-size:16px;
-	         }
-	         ul{
-	      padding: 0px;
-	         }
-
-	         li{
-
-	             display: inline;
-
-	         }
-
-	         li > a{
-
-	             text-decoration: none;
-	             color:white;
-	             font-weight: 100;
-
-	         }
-
-	      #section{
-	         margin: 64px 0px;
-	      }
-	      .centerImg{
-	      display: flex;
-	         margin: auto;
-	      }
-	      .margin8-0{
-	         margin: 8px 0px;
-	      }
-	         .centerTxt{
-	             text-align: center;
-	         }
-
-	         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
-
-	         @media only screen and (max-width: 600px) {
-	          .container {  max-width: 540px !important;}
-	         }
-
-	         @media only screen and (min-width: 600px) {
-	           .container {  max-width: 540px !important;}
-	         }
-
-	         @media only screen and (min-width: 768px) {
-	          .container {   max-width: 720px !important;}
-	         } 
-
-	         @media only screen and (min-width: 992px) {
-	         .container {  max-width: 960px !important;}
-	         } 
-
-	         @media only screen and (min-width: 1200px) {
-	         .container {  max-width: 1140px !important;}
-	         }
-
-	         .col-md-12{
-	             float:left;
-	             width:100%;
-	         }
-	         .col-md-8{
-	             float:left;
-	             width:75%;
-	         }
-
-	         .col-md-6{
-	             float:left;
-	             width:50%;
-	         }
-
-	         .col-md-4{
-	             float:left;
-	             width:25%;
-	             
-	         }
-	         .col-md-3{
-	             float:left;
-	             width:33.33%;
-	             
-	         }
-
-
-	         .container {
-	            width: 100%;
-	            padding-right: 15px;
-	            padding-left: 15px;
-	            margin-right: auto;
-	            margin-left: auto;}
-
-	            .row {
-	            display: -webkit-box;
-	            display: -ms-flexbox;
-	            display: flex;
-	            -ms-flex-wrap: wrap;
-	            flex-wrap: wrap;
-	            margin-right: -15px;
-	            margin-left: -15px;
-	         }
-	         .nav{
-	                max-width: 1200px;
-	            margin: auto;
-	         }
-	         .nav-ul {
-	         list-style-type: none;
-	         margin: 0;
-	         padding: 0;
-	         display: inline;
-	         float: left;
-	         }
-	         .nav-li {
-	         line-height: 2;
-	         padding: 0px 10px;
-	         display: inline;
-	         float: left;
-	         top: 5px;
-	         position: relative;
-
-	         }
-	         .nav-li > a{
-	         text-decoration: none;
-	         color: #18191F;
-	         font-family: sans-serif;
-	         font-size: 14px;
-	         font-weight: 100;
-	         }
-
-	         .dropdown-li{
-
-	         font-family: sans-serif;
-	         font-weight: 100;
-	            list-style-type: none;
-	         font-size: 14px;
-	         padding: 0px 10px;
-	         color: #18191F;
-	            position: relative;
-	            top: 7px;
-
-	         }
-
-	         .dropdown-li > a{
-	         text-decoration: none;
-	         line-height: 2;
-
-	         }
-	         .dropdown {
-	         float: left;
-	         overflow: hidden;
-	         line-height: 2;
-	         }
-
-	         .dropdown .dropbtn {
-	         font-size: 16px;  
-	         border: none;
-	         outline: none;
-	         color: white;
-	         padding: 14px 16px;
-	         background-color: inherit;
-	         font-family: inherit;
-	         margin: 0;
-	         }
-
-	         .dropdown-content {
-	         display: none;
-	         position: absolute;
-	         background-color: #f9f9f9;
-	         min-width: 160px;
-	         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	         z-index: 1;
-	         }
-
-	         .dropdown-content a {
-	         float: none;
-	         color: black;
-	         padding: 12px 16px;
-	         text-decoration: none;
-	         display: block;
-	         text-align: left;
-	         }
-
-	         .dropdown-content a:hover {
-	         background-color: #ddd;
-	         }
-
-	         .dropdown:hover .dropdown-content {
-	         display: block;
-	         }
-
-	         .logo-img{
-
-	          display: inline;
-	            float: left;
-	         width: 100%;
-	            height: auto;
-	         }
-	         .play-store-logo{
-	         width: 100%;
-	         height: auto;
-	                display: inline;
-	            float: left;
-	            padding: 0px 10px;
-	            border-radius: 14px;
-	         }
-	         .app-store-logo{
-
-	                display: inline;
-	            padding: 0px 10px;
-	            float: left;
-	         }
-	         .nav-right-logo{
-	         display: inline;float: right;
-	         }
-	         /* logo clouds */
-	         .flex-container {
-	            display: flex;
-	            flex-wrap: nowrap;
-	            border-top: 1px solid #e6e6e6;
-	            border-bottom: 1px solid #e6e6e6;
-	            padding: 25px 60px;
-	         }
-
-	         .flex-container > img {
-
-	          width: auto;
-	          margin: 10px;
-	          text-align: center;
-	          line-height: 75px;
-	          font-size: 30px;
-	         }
-
-	         .centerDiv{
-	            display: flex;
-	            justify-content: center;
-	         }
-	         .title{
-	            display: contents;
-	         font-size: 37px;
-	         font-weight: 800;
-	         line-height: 1.5;
-	         text-align: left;
-
-	         }
-
-	         /*color*/
-	         .purple-bg{
-	         background: #8C30F5;
-	         }
-	         .btn{
-	             width: 154px;
-	             height: 48px;
-	             border-radius: 6px;
-	             color: #fff;
-	             margin: 32px 0px;
-	             padding: 12px 32px;
-	             border: none;
-	         display: block;
-	             }
-
-	             /*FOOTER CSS*/
-	             #footer{
-
-	                 background:#0B0D17;
-	                 display: inline-block;
-	                 width: 100%;
-	                 color: white;
-	                 padding: 56px 0px;
-
-	             }
-	             .foterImg{
-	                 float:right;
-	             }
-	</style>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/mystyle.css">
 </head>
 <body>
 	<div style="background-image: url(img/header-bg.png);height: 100vh;background-size: cover;">
@@ -371,7 +55,7 @@
 			<div class="nav-right-logo"><img class="play-store-logo" src="img/play-store.png" style="width: 145px;height: 40px;"> <img class="app-store-logo" src="img/app-store.png"></div>
 		</nav>
 		<div class="title">
-			<div style="display: inline-block;top: 50%;transform: translateY(31%); top: 31px;left: 50px; position: relative;">
+			<div style="display: inline-block;transform:translateY(40%) translateX(-66%); position: relative;">
 				<h1 style="font-size:72px !important;text-align: left;">Organise projects.<br>
 				Get more done.</h1><button class="purple-bg btn">Get Started</button>
 			</div>
@@ -382,41 +66,41 @@
 		<div class="flex-container"><img src="img/1.png"> <img src="img/2.png"> <img src="img/3.png"> <img src="img/4.png"> <img src="img/5.png"> <img src="img/6.png"></div>
 	</div><!-- Tailor-made features -->
 	<section id="section">
-		<div class="container">
+		<div class="container" style="margin: 64px auto 30px auto;">
 			<h1 class="margin8-0 font-weight">Tailor-made features</h1>
-			<h3 class="margin8-0">Lorem ipsum is common placeholder text used to demonstrate<br>
+			<h3 class="margin8-0 thin">Lorem ipsum is common placeholder text used to demonstrate<br>
 			the graphic elements of a document or visual presentation.</h3>
 		</div><!---->
 		<div class="container">
 			<div class="col-md-3">
 				<img class="centerImg" src="img/icons/1.png">
-				<h2 class="margin8-0">Robust workflow</h2>
-				<h4 class="margin8-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</h4>
+				<h2 class="margin8-0 ">Robust workflow</h2>
+				<h4 class="margin8-0 thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</h4>
 			</div>
 			<div class="col-md-3">
 				<img class="centerImg" src="img/icons/2.png">
-				<h2 class="margin8-0">Flexibility</h2>
-				<h4 class="margin8-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</h4>
+				<h2 class="margin8-0 ">Flexibility</h2>
+				<h4 class="margin8-0 thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</h4>
 			</div>
 			<div class="col-md-3">
 				<img class="centerImg" src="img/icons/3.png">
-				<h2 class="margin8-0">User friendly</h2>
-				<h4 class="margin8-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</h4>
+				<h2 class="margin8-0 ">User friendly</h2>
+				<h4 class="margin8-0 thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</h4>
 			</div>
 			<div class="col-md-3">
 				<img class="centerImg" src="img/icons/4.png">
-				<h2 class="margin8-0">Multiple layouts</h2>
-				<h4 class="margin8-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</h4>
+				<h2 class="margin8-0 ">Multiple layouts</h2>
+				<h4 class="margin8-0 thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</h4>
 			</div>
 			<div class="col-md-3">
 				<img class="centerImg" src="img/icons/5.png">
-				<h2 class="margin8-0">Better components</h2>
-				<h4 class="margin8-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</h4>
+				<h2 class="margin8-0 ">Better components</h2>
+				<h4 class="margin8-0 thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</h4>
 			</div>
 			<div class="col-md-3">
 				<img class="centerImg" src="img/icons/6.png">
-				<h2 class="margin8-0">Well organised</h2>
-				<h4 class="margin8-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</h4>
+				<h2 class="margin8-0 ">Well organised</h2>
+				<h4 class="margin8-0 thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</h4>
 			</div>
 		</div>
 	</section><br>
@@ -431,17 +115,22 @@
 				<p style="font-size: 18px;font-weight: 100;">With our super powers we have reached this</p>
 			</div>
 			<div class="col-md-6" style=" font-weight: 100; font-family: 'Inter',sans-serif; letter-spacing: 1px; font-size: 18px; line-height: 1.8;">
-				<div class="col-md-6" style=" font-weight: 800; font-size: 28px; text-align: center;">
-					10,000+
+				<div class="col-md-6" >
+					<p class="stats" style=" font-weight: 800; font-size: 28px;"> 10,000+ </p>
+					<p class="stats">Dowloads per day</p>
+
 				</div>
-				<div class="col-md-6" style=" font-weight: 800; font-size: 28px; text-align: center;">
-					2 Million
+				<div class="col-md-6">
+					<p class="stats" style="font-weight: 800; font-size: 28px;">	2 Million</p>
+					<p class="stats">Dowloads per day</p>
 				</div>
-				<div class="col-md-6" style=" font-weight: 800; font-size: 28px; text-align: center;">
-					500+
+				<div class="col-md-6" >
+				<p class="stats" style=" font-weight: 800; font-size: 28px;">500+</p>
+				<p class="stats">Dowloads per day</p>
 				</div>
-				<div class="col-md-6" style=" font-weight: 800; font-size: 28px; text-align: center;">
-					140
+				<div class="col-md-6" >
+				<p  class="stats" style=" font-weight: 800; font-size: 28px; ">140</p>
+				<p class="stats">Dowloads per day</p>
 				</div>
 			</div>
 		</div>
@@ -476,7 +165,11 @@
 			<div style="width: 50%;height: 100%; display: flex; align-items: center; justify-content: center;">
 				<div style=" align-items: center; width: 73%; text-align: left; justify-content: center; position: relative;">
 				<h1 style="text-align: left;line-height: 1.2;">Manage your projects from your mobile</h1>
-				<p style="font-size: 18px;">Download the app to manage your projects, keep track of the progress and complete tasks without procastinating. Stay on track and complete on time!</p><img class="play-store-logo" src="img/play-store.png" style="width: 145px;height: 40px;"> <img class="app-store-logo" src="img/app-store.png"></div>
+				<p style="font-size: 18px;color:#18191F;font-weight: 100;line-height: 1.5;">Download the app to manage your projects, keep track of the progress and complete tasks without procastinating. Stay on track and complete on time!</p>
+				<h4 style="color: #18191F;text-align: left;float:right;margin-bottom: 5px;width:100%;font-size: 18px;">Get the App</h4>
+
+				<img class="play-store-logo" src="img/play-store1.png" style=" padding: 0px;
+    border-radius: 7px;width: 145px;height: 40px;"> <img class="app-store-logo" src="img/app-store2.png" style="width: 145px;height: 40px; border-radius: 16px;"></div>
 			</div>
 		</div>
 	</section><!-- FOOTER -->
@@ -517,9 +210,9 @@
 				</div>
 			</div>
 			<div class="col-md-6">
-				<h4 style="text-align: center;float:right;color:white;width:137px;">Get the App</h4>
-				<div style="width: 100%; display: inline-block;margin-top:16px;"><img class="foterImg" src="img/app-store.png" style="display: block;"></div>
-				<div style="width: 100%;display: inline-block;margin-top:16px;"><img class="foterImg" src="img/play-store.png" style="display: block;"></div>
+				<h4 style="color:#D9DBE1;text-align: left;float:right;margin-bottom: 0px;width:137px;font-size: 18px;">Get the App</h4>
+				<div style="width: 100%; display: inline-block;margin-top:16px;"><img class="foterImg" src="img/playStore-footer.png" style="display: block;width: 140px;height: auto;"></div>
+				<div style="width: 100%;display: inline-block;margin-top:16px;"><img class="foterImg" src="img/appStore-footer.png" style="display: block;width: 140px;height: auto;"></div>
 			</div>
 		</div>
 	</footer>
